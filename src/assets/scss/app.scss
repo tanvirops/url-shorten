@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// Font
+@import 'fonts';
+
+// Components
+@import "./components/button/index";
+
+body{
+    @apply bg-dark-50 text-dark-700;
+}
